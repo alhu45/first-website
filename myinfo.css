@@ -1,0 +1,71 @@
+.myinfo {
+    background-color: black;
+    height: 630px;
+}
+
+.naming {
+    height: 0px;
+}
+
+
+.alanhu {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 100px;
+    color:white;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0;
+    padding-top: 90px;
+}
+
+.qengstudent {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 25px;
+    color:white;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.me {
+    width: 300px;
+    height: 300px;
+    border-radius: 200px;
+    margin-top: 130px;
+}
+
+.animated-bio span {
+    position: relative;
+}
+.animated-bio span::before {
+    content: "Computer Engineering Student at Queen's University";
+    animation: words 20s infinite;
+}
+.animated-bio span::after {
+    content: " ";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color: black;
+    border-left: 2px solid white;
+    right: -8px;
+    animation: cursor 1s infinite, typing 30s steps(20) infinite;
+}
+@keyframes cursor {
+    to {
+        border-left: 2px solid rgb(0, 0, 0);
+    }
+}
+@keyframes words {
+    0%, 100% {
+        content: "Computer Engineering Student at Queen's University";
+    }
+}
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;  
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 8px);
+    }
+}
+

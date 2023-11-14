@@ -1,0 +1,95 @@
+.experience {
+    background-color: rgb(187, 187, 188);
+    height: 1300px;
+}
+
+.experience-title {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 60px;
+    color:black;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 30px auto;
+}
+
+.container-timeline {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+}
+
+.left-container {
+    left: 0;
+}
+
+.right-container {
+    left: 50%;
+}
+
+.white-circle {
+    width: 84px;
+    height: 60px;
+}
+
+.container-timeline img {
+    position: absolute;
+    border-radius: 50%;
+    right: -45px;
+    top: 32px;
+    z-index: 10;
+}
+
+.right-container img {
+    left: -40px;
+}
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 100%;
+    background-color: white;
+    top: 0;
+    left: 50.1%;
+    margin-left: -3px;
+}
+
+.experience-black {
+    background-color: black;
+    height: 900px;
+}
+
+.experience-title-white {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 60px;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    padding-top: 30px;
+}
+  
+.card-experience {
+    width: 500px;
+    height: 254px;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+    margin: 50px;
+}
+
+.textbox-experience {
+    padding: 20px 30px;
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: 0.15s; 
+    color: white;
+}
