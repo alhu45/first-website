@@ -1,6 +1,7 @@
 .experience-lang {
     background-color: black;
-    height: 300px;
+    width: 100%;
+    padding-bottom: 5%;
 }
 
 .experience-lang-title {

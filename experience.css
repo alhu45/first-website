@@ -1,6 +1,6 @@
 .experience {
     background-color: rgb(187, 187, 188);
-    height: 1300px;
+    width: 100%
 }
 
 .experience-title {
@@ -61,9 +61,10 @@
     margin-left: -3px;
 }
 
+/*New Experience Tab*/
 .experience-black {
     background-color: black;
-    height: 900px;
+    width: 100%
 }
 
 .experience-title-white {
@@ -77,19 +78,29 @@
 }
   
 .card-experience {
+    position: relative;
     width: 500px;
     height: 254px;
-    border-radius: 30px;
     background: #212121;
-    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: hidden;
+    perspective: 1000px;
     margin: 50px;
+    box-shadow: 15px 15px 30px rgb(25, 25, 25), -15px -15px 30px rgb(60, 60, 60);
+
+    
 }
 
 .textbox-experience {
     padding: 20px 30px;
-    position: relative;
+    box-sizing: border-box;
+    position: absolute;
     border-radius: 6px;
     font-size: 15px;
     transition: 0.15s; 
     color: white;
+
 }
